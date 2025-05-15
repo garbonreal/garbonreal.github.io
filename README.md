@@ -1,2 +1,2 @@
-# jpeng.portfolio
+# jpeng-portfolio
 Build my portfolio based on React
