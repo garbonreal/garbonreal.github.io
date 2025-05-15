@@ -168,7 +168,7 @@ const About = () => {
     <section className="achievements">
       <h3 className="h3 achievements">Achievements</h3>
       <ul>
-        <li>🥇 3rd Place @ Scotia DSD Hackathon 2024</li>
+        <li className="h5">🥇 3rd Place @ Scotia DSD Hackathon 2024</li>
       </ul>
     </section>
 
