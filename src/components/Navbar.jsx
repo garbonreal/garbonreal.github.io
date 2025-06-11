@@ -18,8 +18,8 @@ const Navbar = () => {
       </li>
 
       <li className="navbar-item">
-        <NavLink to="/portfolio" className="navbar-link" data-nav-link>
-          Portfolio
+        <NavLink to="/projects" className="navbar-link" data-nav-link>
+          Projects
         </NavLink>
       </li>
 

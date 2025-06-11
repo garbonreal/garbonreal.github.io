@@ -1,9 +1,9 @@
 
 
-const ProjectPost = ({ title, category, date, image, description }) => {
+const ProjectPost = ({ title, category, date, image, description, link }) => {
   return (
     <li className="project-post-item">
-      <a href="#">
+      <a href={link} target="_blank" rel="noopener noreferrer">
         <figure className="project-banner-box">
           <img src={image} alt={title} loading="lazy"/>
         </figure>

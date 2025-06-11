@@ -1,7 +1,7 @@
 import  { useState, useEffect } from 'react';
 import ProjectPost from './ProjectPost';
 
-const Portfolio = () => {
+const Projects = () => {
   // State to store project data and filtered projects
   const [projects, setProjects] = useState([]);
   const [filteredProjects, setFilteredProjects] = useState([]);
@@ -34,12 +34,12 @@ const Portfolio = () => {
   return (
     <section className="project" data-page="project">
       <header>
-        <h2 className="h2 article-title">Portfolio</h2>
+        <h2 className="h2 article-title">Projects</h2>
       </header>
 
       {/* Filter buttons */}
       <ul className="filter-list">
-        {['All', 'Web design', 'Applications', 'Web development'].map(category => (
+        {['All', 'Full Stack Project', 'Python Project', 'Java Project'].map(category => (
           <li className="filter-item" key={category}>
             <button
               className={category === selectedCategory ? 'active' : ''}
@@ -52,7 +52,7 @@ const Portfolio = () => {
         ))}
       </ul>
 
-      {/* Portfolio items */}
+      {/* Projects */}
       <div className="project-posts">
         <ul className="project-posts-list">
           {filteredProjects.map((post, index) => (
@@ -72,4 +72,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;
