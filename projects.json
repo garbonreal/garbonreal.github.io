@@ -23,7 +23,7 @@
       "category": "Python Project",
       "image": "images/news_brain.png",
       "date": "2023-06-01",
-      "description": "A modern snowboard e-commerce site with featured products, cart sidebar, multi-step checkout, and user dashboard. Built with React, Vite, Node.js, and Firebase.",
+      "description": "A Flask-based platform for real-time news collection, filtering, summarization with BART, and report editing. It supports user management, local and Docker deployment, and integrates MySQL, Redis, MongoDB, and Nginx for a complete backend infrastructure.",
       "link": "https://github.com/garbonreal/news_brain"
     },
     {
