@@ -1,57 +1,39 @@
 [
     {
       "id": 1,
-      "title": "Finance",
-      "category": "Web development",
-      "image": "images/project-1.jpg"
+      "title": "Website Chatbot",
+      "category": "Python Project",
+      "image": "images/website_chatbot.png",
+      "date": "2025-05-01",
+      "description": "An Azure-based AI chatbot for “Made with Nestlé,” offering real-time answers via dynamic scraping, vector indexing, and GraphRAG with Cosmos DB.",
+      "link": "https://github.com/garbonreal/website-chatbot"
     },
     {
       "id": 2,
-      "title": "Orizon",
-      "category": "Web development",
-      "image": "images/project-2.png"
+      "title": "Snowboard Ecommerce",
+      "category": "Full Stack Project",
+      "image": "images/snowboard.png",
+      "date": "2025-01-01",
+      "description": "A modern snowboard e-commerce site with featured products, cart sidebar, multi-step checkout, and user dashboard. Built with React, Vite, Node.js, and Firebase.",
+      "link": "https://github.com/garbonreal/snowboard-ecommerce"
     },
     {
       "id": 3,
-      "title": "Fundo",
-      "category": "Web design",
-      "image": "images/project-3.jpg"
+      "title": "News Brain",
+      "category": "Python Project",
+      "image": "images/news_brain.png",
+      "date": "2023-06-01",
+      "description": "A modern snowboard e-commerce site with featured products, cart sidebar, multi-step checkout, and user dashboard. Built with React, Vite, Node.js, and Firebase.",
+      "link": "https://github.com/garbonreal/news_brain"
     },
     {
       "id": 4,
-      "title": "Brawlhalla",
-      "category": "Applications",
-      "image": "images/project-3.jpg"
-    },
-    {
-      "id": 5,
-      "title": "DSM.",
-      "category": "Web design",
-      "image": "images/project-5.png"
-    },
-    {
-      "id": 6,
-      "title": "MetaSpark",
-      "category": "Web design",
-      "image": "images/project-6.png"
-    },
-    {
-      "id": 7,
-      "title": "Summary",
-      "category": "Web development",
-      "image": "images/project-7.png"
-    },
-    {
-      "id": 8,
-      "title": "Task Manager",
-      "category": "Applications",
-      "image": "images/project-8.jpg"
-    },
-    {
-      "id": 9,
-      "title": "Arrival",
-      "category": "Web development",
-      "image": "images/project-9.png"
+      "title": "Music Recommender",
+      "category": "Java Project",
+      "image": "images/music_recommender.png",
+      "date": "2023-12-01",
+      "description": "A real-time music recommender system built with Spark Streaming, Kafka, Flume, Redis, and MongoDB, it updates results live based on user behavior. Includes LFM-based algorithm, Angular-Spring web app, and Docker-based deployment",
+      "link": "https://github.com/garbonreal/music_recommender"
     }
   ]
   
